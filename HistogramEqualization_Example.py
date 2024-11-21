@@ -9,6 +9,7 @@ equalized_image = cv2.equalizeHist(small_image)
 
 # 결과 출력
 cv2.imshow('Original Image', small_image)
+# hello
 cv2.imshow('Histogram Equalized Image', equalized_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
